@@ -2,7 +2,7 @@ import os
 import django
 import time
 
-# Set your Django settings module BEFORE importing Django components
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shopping.settings')
 
 django.setup()
